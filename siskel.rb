@@ -13,7 +13,7 @@ class Siskel
     if @movie['Metascore'].to_i > 50
       @consensus = "Thumbs Up" 
     else
-	  @consensus = "Thumbs Down"
+      @consensus = "Thumbs Down"
     end
   end
 end
